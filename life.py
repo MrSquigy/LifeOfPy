@@ -147,11 +147,7 @@ if __name__ == "__main__":
         default=0.5,
     )
     parser.add_argument(
-        "--l",
-        "--load",
-        dest="file_name",
-        type=str,
-        help="load an existing state from a file",
+        "--l", "--load", dest="file_name", type=str, help="load a world from a file",
     )
 
     args = parser.parse_args()
